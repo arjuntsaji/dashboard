@@ -1,0 +1,212 @@
+.custom-heading {
+  font: normal normal normal 18px/13px Source Sans Pro;
+  color: #4d4f5c;
+  opacity: 1;
+}
+.card-profile {
+  border-bottom: 1px solid #f0f4f7;
+  .profile-image {
+    border-radius: 50%;
+    max-width: 75px;
+    opacity: 1;
+    //   box-shadow: 3px 3px 20px rgb(0 0 0 / 50%);
+    border: 2px solid rgba(255, 255, 255, 1);
+    z-index: 99999;
+  }
+  .sub-label {
+    font: normal normal normal 14px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+  }
+  .social-icon {
+    i {
+      color: #bbc0c9;
+    }
+  }
+}
+
+.user-list {
+  ul {
+    padding: 0;
+  }
+  .our-userProfile {
+    width: 40px;
+    border-radius: 50%;
+  }
+  .user-name {
+    font: normal normal 600 16px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4d4f5c;
+    opacity: 1;
+  }
+  .sub-name {
+    font: normal normal normal 14px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+  }
+  .contact-number {
+    font: normal normal normal 14px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+  }
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+  font-size: 0.9rem;
+  left: auto;
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  top: 70px;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-menu {
+  border: none;
+}
+.dropdownAnimation,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .dropdown-menu {
+  -webkit-animation-duration: 0.25s;
+  animation-duration: 0.25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: dropdownAnimation;
+  animation-name: dropdownAnimation;
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+}
+.dropdown-menu.show {
+  display: block;
+}
+.dropdown .dropdown-menu {
+  border-radius: 0;
+  box-shadow: 0 1px 15px 1px rgb(230 234 236 / 35%);
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+}
+.navbar-nav .dropdown-menu {
+  float: none;
+}
+.popup-menu {
+  background-clip: padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #5565751a;
+  border-radius: 10px;
+  opacity: 1;
+  color: #212529;
+  display: none;
+  font-size: 1rem;
+  list-style: none;
+  margin: 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  position: absolute;
+  text-align: left;
+  z-index: 1000;
+  top: 66px;
+  label {
+    font: normal normal normal 16px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 1;
+    margin-left: 10px;
+  }
+  i {
+    color: #c0c9ce;
+  }
+}
+.notification-icon {
+  color: #c0c9ce;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.notification-menu {
+  user-select: none;
+  background-clip: padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #5565751a;
+  border-radius: 10px;
+  opacity: 1;
+  color: #212529;
+  display: none;
+  font-size: 1rem;
+  list-style: none;
+  margin: 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  position: absolute;
+  text-align: left;
+  z-index: 1000;
+  top: 55px;
+  right: -30px;
+  width: 430px;
+  height: 298px;
+  .notification-section {
+    border-bottom: 1px solid #f0f4f7;
+  }
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
+  .user-name {
+    font: normal normal 600 16px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4d4f5c;
+    opacity: 1;
+  }
+  .sub-name {
+    font: normal normal normal 14px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+  }
+  .contact-number {
+    font: normal normal normal 14px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #43425d;
+    opacity: 0.5;
+  }
+}
+.search-container {
+  input:focus {
+    outline-offset: -2px;
+  }
+
+  #submitsearch {
+    border: 1px solid rgb(138, 134, 134);
+    margin-left: -82px;
+    padding: 5px;
+    border-radius: 19px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 4px;
+    display: none;
+    box-shadow: 0 0 1px black;
+    margin-right: 110px;
+  }
+
+  #searchInput {
+    border: none;
+    min-width: 320px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png");
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    -webkit-transition: width 0.8s ease-in-out;
+    transition: width 0.8s ease-in-out;
+    outline: none;
+    opacity: 0.9;
+  }
+}
+.title-header {
+  font: normal normal 600 28px/40px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #43425d;
+}
